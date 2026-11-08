@@ -1,0 +1,14 @@
+{
+  "name": "geo-haversine-core",
+  "version": "0.1.0",
+  "description": "Haversine great-circle distance, bearing, destination and radius checks. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/geo.test.js",
+    "demo": "node bin/geo.mjs --assert"
+  }
+}
